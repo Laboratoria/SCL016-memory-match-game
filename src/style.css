@@ -23,3 +23,14 @@ h2, h3 {
     text-shadow: 3px 3px lightcyan;
     text-align: center;
 }
+#difficulty {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#easy, #medium, #hard {
+    width: 16%;
+
+}
