@@ -1,0 +1,25 @@
+body {
+    background-size: cover;
+    background-image: url(./resources/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 108rem;
+}
+#logo {
+    display: block;
+    margin: auto;
+}
+h1 {
+    font-family: VT323;
+    font-size: 5rem;
+    color: darkblue;
+    text-shadow: 3px 3px lightcyan;
+    text-align: center;
+}
+h2, h3 {
+    font-family: VT323;
+    font-size: 5rem;
+    color: darkblue;
+    text-shadow: 3px 3px lightcyan;
+    text-align: center;
+}
