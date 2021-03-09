@@ -34,3 +34,9 @@ h2, h3 {
     width: 16%;
 
 }
+#congrats-page {
+    display: none;
+}
+#footer {
+    display: none;
+}
