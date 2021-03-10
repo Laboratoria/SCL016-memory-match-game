@@ -49,13 +49,13 @@ const gamePageHard = () => {
 
   return el;
 };
-const congratsPage = () => {
+
+function congratsPage() {
   const el = document.createElement('div');
 
   el.className = 'congratsPage';
-  el.innerHTML =  '<h4>Felicitaciones</h4><img src="./resources/celebrate.gif" alt="Pokemones celebrando victoria" id="celebrate1"><img src="./resources/confetti.gif" alt="Confetti" id="celebrate2">';
-
+  el.innerHTML = '<h4>Felicitaciones</h4><img src="./resources/celebrate.gif" alt="Pokemones celebrando victoria" id="celebrate1"><img src="./resources/confetti.gif" alt="Confetti" id="celebrate2">';
   return el;
-};
+}
 
 export { App, gamePageEasy, gamePageMedium, gamePageHard, congratsPage };
