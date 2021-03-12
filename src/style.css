@@ -24,7 +24,6 @@ h2, h3 {
     text-align: center;
 }
 #difficulty {
-    justify-content: center;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -34,9 +33,18 @@ h2, h3 {
     width: 16%;
 
 }
-#congrats-page {
-    display: none;
+
+footer {
+    display: flex;
+    justify-content: center;
+    
 }
-#footer {
-    display: none;
+#starover {
+    font-family: VT323;
+    font-weight: normal;
+    font-size: 300%;
+    text-align: center;
+    color: darkblue;
+    border: 2px solid #000000;
+    opacity: 0.8;
 }

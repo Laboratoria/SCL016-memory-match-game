@@ -27,4 +27,12 @@ buttonToHard.addEventListener("click", function () {
     document.querySelector("#root").style.display = "none";
     document.querySelector('#gamePageHard').appendChild(gamePageHard());
 
-});
+})
+
+//function starover () {
+    //document.querySelector('#gamePageEasy').style.display = 'none';
+   // document.querySelector('#root').style.display = 'block';
+ 
+  // }
+
+
